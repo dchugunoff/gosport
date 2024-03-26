@@ -49,6 +49,9 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    sourceSets.getByName("main") {
+        res.srcDirs(androidProjectConfig.versions.sourcesets.core.presentation.get())
+    }
 }
 
 dependencies {
