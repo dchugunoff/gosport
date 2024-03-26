@@ -26,4 +26,23 @@ dependencyResolutionManagement {
 
 rootProject.name = "GoSportTechnicalTask"
 include(":app")
- 
+include(
+    ":core:data",
+    ":core:domain",
+    ":core:presentation"
+)
+include(
+    ":feature:cart:data",
+    ":feature:cart:domain",
+    ":feature:cart:presentation"
+)
+include(
+    ":feature:menu:data",
+    ":feature:menu:domain",
+    ":feature:menu:presentation"
+)
+include(
+    ":feature:profile:data",
+    ":feature:profile:domain",
+    ":feature:profile:presentation"
+)

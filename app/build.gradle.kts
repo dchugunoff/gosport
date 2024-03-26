@@ -52,6 +52,11 @@ android {
 }
 
 dependencies {
+    implementation(projects.core.presentation)
+    implementation(projects.core.data)
+    implementation(projects.feature.cart.presentation)
+    implementation(projects.feature.profile.presentation)
+    implementation(projects.feature.menu.presentation)
     implementation(libs.bundles.androidx.ui)
     implementation(libs.bundles.kotlinx.android)
     implementation(libs.bundles.koin.android)

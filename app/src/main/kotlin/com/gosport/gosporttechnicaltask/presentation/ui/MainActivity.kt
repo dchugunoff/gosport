@@ -1,7 +1,8 @@
-package com.gosport.gosporttechnicaltask
+package com.gosport.gosporttechnicaltask.presentation.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.gosport.gosporttechnicaltask.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
